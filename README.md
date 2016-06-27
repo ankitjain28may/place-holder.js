@@ -16,15 +16,13 @@
 
 ```
 <script type="text/javascript" src="jquery-3.0.0.min.js"></script>
-
 ```
 
 <p>After including jQuery you need to include placeholder.js in your web page by downloading this project or clone is project</p><br>
-<p>Include placeholder.js after the jquery library</p><br>
+<p>Include placeholder.js after the jquery library</p>
 
 ```
 <script type="text/javascript" src="placeholder.js"></script>
-
 ```
 
 <p><b>Note</b>Place the downloaded file in the same directory as the pages where you wish to use it.</p>

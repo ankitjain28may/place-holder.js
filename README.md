@@ -14,7 +14,7 @@
 <h2>Downloading jQuery</h2>
 <p>The jQuery library is a single JavaScript file, and you reference it with the HTML 'script' tag (notice that the 'script' tag should be outside the 'body' section at the bottom):</p>
 
-<code><script src="jquery-3.0.0.min.js"></script></code>
+<script src="jquery-3.0.0.min.js"></script>
 
 <p>After including jQuery you need to include placeholder.js in your web page by downloading this project or clone is project</p><br>
 <p>Include placeholder.js after the jquery library</p><br>
@@ -24,7 +24,7 @@
 <p><b>Note</b>Place the downloaded file in the same directory as the pages where you wish to use it.</p>
 
 <h2>Example</h2>
-<code>
+
 	<!DOCTYPE html>
 	<html>
 		<head>
@@ -42,7 +42,7 @@
 		<script type="text/javascript" src="jquery-3.0.0.min.js"></script> 
 			<script type="text/javascript" src="placeholder.js"></script>
 	</html>
-</code>
+
 <h2>Contribute</h2>
 <p>Feel free to contribute</p>
 <h3>Fork, code and Push</h3>

@@ -15,7 +15,7 @@
 <p>The jQuery library is a single JavaScript file, and you reference it with the HTML 'script' tag (notice that the 'script' tag should be outside the 'body' section at the bottom):</p>
 
 ```
-<script src="jquery-3.0.0.min.js"></script>
+<script type="text/javascript" src="jquery-3.0.0.min.js"></script>
 
 ```
 

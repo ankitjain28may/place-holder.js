@@ -25,7 +25,7 @@
 <script type="text/javascript" src="placeholder.js"></script>
 ```
 
-<p><b>Note</b>Place the downloaded file in the same directory as the pages where you wish to use it.</p>
+<p><b>Note: </b>Place the downloaded file in the same directory as the pages where you wish to use it.</p>
 
 <h2>Example</h2>
 

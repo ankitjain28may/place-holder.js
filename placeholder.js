@@ -73,7 +73,7 @@ for (var i = 0; i <len; i++) {
 			ele[i].placeholder="Enter the URL";
 		}
 	}
-};
+}
 
 $("textarea").attr("placeholder","Enter the message");
 

@@ -1,3 +1,5 @@
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/02621d4f9368486e99157258f89f44fa)](https://www.codacy.com/app/ankitjain28may77/placeholder-js?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ankitjain28may/placeholder.js&amp;utm_campaign=Badge_Grade)
+
 <h2>placeholder.js</h2>
 
 <p>Don't need to include placeholder manually of every input field just include placeholder.js</p><br>

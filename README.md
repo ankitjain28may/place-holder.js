@@ -29,6 +29,13 @@ There are several ways to start using jQuery on your web site. You can:
 
 <p><b>Note: </b>Place the downloaded file in the same directory as the pages where you wish to use it.</p>
 
+#Install using npm
+
+```
+npm install placeHolder.js
+```
+
+
 #Example
 ```
 	<!DOCTYPE html>

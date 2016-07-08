@@ -1,5 +1,5 @@
 {
-  "name": "placeholder.js",
+  "name": "placeHolder.js",
   "version": "1.0.0",
   "description": "It is a 1 KB JavaScript file based on jQuery which is used to include placeholder in your input fields.",
   "main": "placeholder.js",
@@ -9,12 +9,11 @@
   },
   "keywords": [
     "placeholder",
-    "placeholder.js",
-    "form",
     "input",
-    "textarea"
+    "textarea",
+    "form"
   ],
-  "author": "Ankit Jain",
+  "author": "Ankit Jain <ankitjain28may77@gmail.com> (http://ankitjain.surge.sh) ",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ankitjain28may/placeholder.js/issues"

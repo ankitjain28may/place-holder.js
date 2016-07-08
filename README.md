@@ -1,14 +1,14 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/02621d4f9368486e99157258f89f44fa)](https://www.codacy.com/app/ankitjain28may77/placeholder-js?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ankitjain28may/placeholder.js&amp;utm_campaign=Badge_Grade)
 
-<h2>placeholder.js</h2>
+#placeholder.js
 
-<p>Don't need to include placeholder manually of every input field just include placeholder.js</p><br>
+placeholder.js is a 1 KB Javascript file based on Jquery which is used to include placeholder in your input fileds. Don't need to include placeholder manually of every input field just include placeholder.js.
 
-<h2>Getting Started</h2>
+##Getting Started
 
-<p>First include jQuery to your web page.</p><br>
+First include jQuery to your web page.
 
-<p>There are several ways to start using jQuery on your web site. You can:</p><br>
+There are several ways to start using jQuery on your web site. You can:
 
 <p>Download the jQuery library from <a href="http://www.jQuery.com">jQuery.com</a></p><br>
 <p>Include jQuery from a CDN, like Google, Microsoft</p><br>
@@ -24,13 +24,13 @@
 <p>Include placeholder.js after the jquery library</p>
 
 ```
-<script type="text/javascript" src="placeholder.js"></script>
+<script type="text/javascript" src="placeholder.min.js"></script>
 ```
 
 <p><b>Note: </b>Place the downloaded file in the same directory as the pages where you wish to use it.</p>
 
-<h2>Example</h2>
-
+#Example
+```
 	<!DOCTYPE html>
 	<html>
 		<head>
@@ -48,9 +48,9 @@
 		<script type="text/javascript" src="jquery-3.0.0.min.js"></script> 
 			<script type="text/javascript" src="placeholder.js"></script>
 	</html>
-
-<h2>Contribute</h2>
-<p>Feel free to contribute</p>
-<h3>Fork, code and Push</h3>
+```
+#Contribute
+Feel free to contribute
+###Fork, code and Push
 
 <address>Created by- Ankit Jain</address>

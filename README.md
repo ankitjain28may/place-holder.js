@@ -28,20 +28,20 @@ Include placeholder.js after the jquery library
 Note: Place the downloaded file in the same directory as the pages where you wish to use it.
 
 
-#Install using npm
+##Install using npm
 
 ```
 npm install placeHolder.js
 ```
 
 
-#Use through npmcdn
+##Use npmcdn
 ```
-https://npmcdn.com/placeHolder.js@1.0.1
+https://npmcdn.com/placeHolder.js@1.0.3
 ```
 
 
-#Example
+###Example
 ```
 	<!DOCTYPE html>
 	<html>
@@ -61,7 +61,7 @@ https://npmcdn.com/placeHolder.js@1.0.1
 			<script type="text/javascript" src="placeholder.min.js"></script>
 	</html>
 ```
-#Contribute
+##Contribute
 
 Feel free to contribute
 

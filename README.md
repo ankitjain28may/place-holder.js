@@ -1,5 +1,6 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/02621d4f9368486e99157258f89f44fa)](https://www.codacy.com/app/ankitjain28may77/placeholder-js?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ankitjain28may/placeholder.js&amp;utm_campaign=Badge_Grade)
-[![npm version](https://badge.fury.io/js/place-holder.js@2x.png)](https://badge.fury.io/js/place-holder.js)
+[![npm version](https://badge.fury.io/js/place-holder.js.svg)](https://badge.fury.io/js/place-holder.js)
+
 #placeholder.js
 
 placeholder.js is a 1 KB Javascript file based on Jquery which is used to include placeholder in your input fileds. Don't need to include placeholder manually of every input field just include placeholder.js.

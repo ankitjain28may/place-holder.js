@@ -31,13 +31,13 @@ Note: Place the downloaded file in the same directory as the pages where you wis
 ##Install using npm
 
 ```
-npm install placeHolder.js
+npm install place-holder.js
 ```
 
 
 ##Use npmcdn
 ```
-https://npmcdn.com/placeHolder.js@1.0.3
+https://npmcdn.com/place-holder.js@1.0.0
 ```
 
 

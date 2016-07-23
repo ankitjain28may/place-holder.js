@@ -1,9 +1,9 @@
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/02621d4f9368486e99157258f89f44fa)](https://www.codacy.com/app/ankitjain28may77/placeholder-js?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ankitjain28may/placeholder.js&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/02621d4f9368486e99157258f89f44fa)](https://www.codacy.com/app/ankitjain28may77/placeholder-js?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ankitjain28may/place-holder.js&amp;utm_campaign=Badge_Grade)
 [![npm version](https://badge.fury.io/js/place-holder.js.png)](https://badge.fury.io/js/place-holder.js)
 
-#placeholder.js
+#place-holder.js
 
-placeholder.js is a 1 KB Javascript file based on Jquery which is used to include placeholder in your input fileds. Don't need to include placeholder manually of every input field just include placeholder.js.
+place-holder.js is a 1 KB Javascript file based on Jquery which is used to include placeholder in your input fileds. Don't need to include placeholder manually of every input field just include place-holder.js.
 
 ##Getting Started
 
@@ -20,10 +20,10 @@ The jQuery library is a single JavaScript file, and you reference it with the HT
 ```
 
 After including jQuery you need to include placeholder.js in your web page by downloading this project or clone is project
-Include placeholder.js after the jquery library
+Include place-holder.js after the jquery library
 
 ```
-<script type="text/javascript" src="placeholder.min.js"></script>
+<script type="text/javascript" src="place-holder.min.js"></script>
 ```
 
 Note: Place the downloaded file in the same directory as the pages where you wish to use it.
@@ -38,7 +38,7 @@ npm install place-holder.js
 
 ##Use npmcdn
 ```
-https://npmcdn.com/place-holder.js@1.0.6
+https://npmcdn.com/place-holder.js@1.0.7
 ```
 
 
@@ -59,7 +59,7 @@ https://npmcdn.com/place-holder.js@1.0.6
 			</form>
 		</body>
 		<script type="text/javascript" src="jquery-3.0.0.min.js"></script> 
-			<script type="text/javascript" src="placeholder.min.js"></script>
+			<script type="text/javascript" src="place-holder.min.js"></script>
 	</html>
 ```
 ##Contribute

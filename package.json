@@ -1,11 +1,11 @@
 {
   "name": "place-holder.js",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "It is a 1 KB JavaScript file based on jQuery which is used to include placeholder in your input fields.",
-  "main": "placeholder.min.js",
+  "main": "place-holder.min.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ankitjain28may/placeholder.js.git"
+    "url": "https://github.com/ankitjain28may/place-holder.js.git"
   },
   "keywords": [
     "placeholder",
@@ -16,7 +16,7 @@
   "author": "Ankit Jain <ankitjain28may77@gmail.com> (http://ankitjain.surge.sh) ",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ankitjain28may/placeholder.js/issues"
+    "url": "https://github.com/ankitjain28may/place-holder.js/issues"
   },
-  "homepage": "https://github.com/ankitjain28may/placeholder.js#readme"
+  "homepage": "https://github.com/ankitjain28may/place-holder.js#readme"
 }

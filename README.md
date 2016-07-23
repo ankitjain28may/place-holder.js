@@ -47,6 +47,7 @@ https://npmcdn.com/place-holder.js@2.1.1
 bower install place-holder.js
 ```
 
+###Information for the place-holder.js
 ```
 bower info place-holder.js
 ```

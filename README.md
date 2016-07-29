@@ -38,7 +38,7 @@ npm install place-holder.js
 
 ##Use npmcdn
 ```
-https://npmcdn.com/place-holder.js@2.1.2
+https://npmcdn.com/place-holder.js@2.1.4
 ```
 
 ##Install using bower

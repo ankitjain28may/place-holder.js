@@ -38,7 +38,7 @@ npm install place-holder.js
 
 ##Use unpkg
 ```
-https://unpkg.com/place-holder.js@2.1.4
+https://unpkg.com/place-holder.js@2.1.5
 ```
 
 ##Install using bower
@@ -68,7 +68,7 @@ bower info place-holder.js
 				<textarea></textarea>
 			</form>
 		</body>
-		<script type="text/javascript" src="jquery-3.0.0.min.js"></script> 
+		<script type="text/javascript" src="jquery-3.0.0.min.js"></script>
 			<script type="text/javascript" src="place-holder.min.js"></script>
 	</html>
 ```

@@ -22,7 +22,7 @@
     "url": "https://github.com/ankitjain28may/place-holder.js/issues"
   },
   "homepage": "https://github.com/ankitjain28may/place-holder.js#readme",
-  "version": "2.2.1",
+  "version": "2.2.2",
   "ignore": [
     "**/.*",
     "node_modules",

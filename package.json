@@ -1,6 +1,6 @@
 {
   "name": "place-holder.js",
-  "version": "2.1.10",
+  "version": "2.2.1",
   "description": "It is a 1 KB JavaScript file based on jQuery which is used to include placeholder in your input fields.",
   "main": "place-holder.min.js",
   "repository": {

@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Place-holder.js by ankitjain28may</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-dark.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/respond.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+      <div id="header">
+        <nav>
+          <li class="fork"><a href="https://github.com/ankitjain28may/place-holder.js">View On GitHub</a></li>
+          <li class="downloads"><a href="https://github.com/ankitjain28may/place-holder.js/zipball/master">ZIP</a></li>
+          <li class="downloads"><a href="https://github.com/ankitjain28may/place-holder.js/tarball/master">TAR</a></li>
+          <li class="title">DOWNLOADS</li>
+        </nav>
+      </div><!-- end header -->
+
+    <div class="wrapper">
+
+      <section>
+        <div id="title">
+          <h1>Place-holder.js</h1>
+          <p>Include placeholder in input fields with this simple place-holder.js</p>
+          <hr>
+          <span class="credits left">Project maintained by <a href="https://github.com/ankitjain28may">ankitjain28may</a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
+        </div>
+
+        <p><a href="https://www.codacy.com/app/ankitjain28may77/placeholder-js?utm_source=github.com&amp;amp;utm_medium=referral&amp;amp;utm_content=ankitjain28may/place-holder.js&amp;amp;utm_campaign=Badge_Grade"><img src="https://api.codacy.com/project/badge/Grade/02621d4f9368486e99157258f89f44fa" alt="Codacy Badge"></a>
+<a href="https://badge.fury.io/js/place-holder.js"><img src="https://badge.fury.io/js/place-holder.js.png" alt="npm version"></a>
+<a href="https://www.npmjs.com/package/place-holder.js"><img src="https://img.shields.io/npm/dt/place-holder.js.svg" alt="npm"></a></p>
+
+<h1>
+<a id="place-holderjs" class="anchor" href="#place-holderjs" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>place-holder.js</h1>
+
+<p>place-holder.js is a 1 KB Javascript file based on Jquery which is used to include placeholder in your input fileds. Don't need to include placeholder manually of every input field just include place-holder.js.</p>
+
+<h2>
+<a id="getting-started" class="anchor" href="#getting-started" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Getting Started</h2>
+
+<p>First include jQuery to your web page.
+There are several ways to start using jQuery on your web site. You can:
+Download the jQuery library from <a href="http://www.jQuery.com">jQuery.com</a>
+Include jQuery from a CDN, like Google, Microsoft</p>
+
+<p>Downloading jQuery
+The jQuery library is a single JavaScript file, and you reference it with the HTML 'script' tag (notice that the 'script' tag should be outside the 'body' section at the bottom):</p>
+
+<pre><code>&lt;script type="text/javascript" src="jquery-3.0.0.min.js"&gt;&lt;/script&gt;
+</code></pre>
+
+<p>After including jQuery you need to include placeholder.js in your web page by downloading this project or clone is project
+Include place-holder.js after the jquery library</p>
+
+<pre><code>&lt;script type="text/javascript" src="place-holder.min.js"&gt;&lt;/script&gt;
+</code></pre>
+
+<p>Note: Place the downloaded file in the same directory as the pages where you wish to use it.</p>
+
+<h2>
+<a id="install-using-npm" class="anchor" href="#install-using-npm" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Install using npm</h2>
+
+<pre><code>npm install place-holder.js
+</code></pre>
+
+<h2>
+<a id="use-unpkg" class="anchor" href="#use-unpkg" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Use unpkg</h2>
+
+<pre><code>https://unpkg.com/place-holder.js@2.2.1
+</code></pre>
+
+<h2>
+<a id="install-using-bower" class="anchor" href="#install-using-bower" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Install using bower</h2>
+
+<pre><code>bower install place-holder.js
+</code></pre>
+
+<h3>
+<a id="information-for-the-place-holderjs" class="anchor" href="#information-for-the-place-holderjs" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Information for the place-holder.js</h3>
+
+<pre><code>bower info place-holder.js
+</code></pre>
+
+<h3>
+<a id="example" class="anchor" href="#example" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Example</h3>
+
+<pre><code>    &lt;!DOCTYPE html&gt;
+    &lt;html&gt;
+        &lt;head&gt;
+            &lt;title&gt;Index&lt;/title&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+            &lt;form&gt;
+                &lt;input type="text" name="name"&gt;
+                &lt;input type="email" name="email"&gt;
+                &lt;input  name="mobile"&gt;
+                &lt;input type="submit"&gt;
+                &lt;textarea&gt;&lt;/textarea&gt;
+            &lt;/form&gt;
+        &lt;/body&gt;
+        &lt;script type="text/javascript" src="jquery-3.0.0.min.js"&gt;&lt;/script&gt;
+            &lt;script type="text/javascript" src="place-holder.min.js"&gt;&lt;/script&gt;
+    &lt;/html&gt;
+</code></pre>
+
+<h2>
+<a id="contribute" class="anchor" href="#contribute" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Contribute</h2>
+
+<p>Feel free to contribute</p>
+
+<h2>
+<a id="license" class="anchor" href="#license" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>License</h2>
+
+<p>Copyright (c) 2016 <a href="https://github.com/ankitjain28may/">Ankit Jain</a> - Released under the MIT License</p>
+      </section>
+
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>

@@ -1,70 +1,27 @@
-function isText(type) {
-  if (type === "text") {
-    return true;
-  }
-  return false;
-}
-
-function isEmail(type) {
-  if (type === "email") {
-    return true;
-  }
-  return false;
-
-}
-
-function isNumber(type) {
-  if (type === "number") {
-    return true;
-  }
-  return false;
-
-}
-
-function isPassword(type) {
-  if (type === "password") {
-    return true;
-  }
-  return false;
-
-}
-
-function isTel(type) {
-  if (type === "tel") {
-    return true;
-  }
-  return false;
-
-}
-
-function isURL(type) {
-  if (type === "url") {
-    return true;
-  }
-  return false;
-
-}
-
-var ele = $(":input");
-var len = ele.length;
-var i = 0;
-var type = "";
-for (i = 0; i < len; i++) {
-  type = ele[i].type;
-  if (!ele[i].placeholder) {
-    if (isText(type)) {
-      ele[i].placeholder = "Enter the Text";
-    } else if (isEmail(type)) {
-      ele[i].placeholder = "Enter the Email Address";
-    } else if (isNumber(type)) {
-      ele[i].placeholder = "Enter the Number";
-    } else if (isPassword(type)) {
-      ele[i].placeholder = "Enter the Password";
-    } else if (isTel(type)) {
-      ele[i].placeholder = "Enter the Mobile No.";
-    } else if (isURL(type)) {
-      ele[i].placeholder = "Enter the URL";
+function getPlaceholderText(type) {
+    switch (type) {
+        case "email":
+          return "Enter the Email Address";
+        case "number":
+          return "Enter the Number";
+        case "password":
+          return "Enter the Password";
+        case "tel":
+          return "Enter the Mobile No.";
+        case "url":
+          return "Enter the URL";
+        case "text":
+        default: 
+          return "Enter the Text";
     }
+}
+
+var ele = $(":input"),
+    len = ele.length,
+    i = 0;
+for (i = 0; i < len; i++) {
+  if (!ele[i].placeholder) {
+      ele[i].placeholder = getPlaceholderText(ele[i].type);
   }
 }
 

@@ -5,6 +5,42 @@ function isText(type) {
   return false;
 }
 
+function isCreditCard(name) {
+  return name === "cardnumber";
+}
+
+function isCCName(name) {
+  return name === "ccname";
+}
+
+function isCVC(name) {
+  return name === "cvc";
+}
+
+function isCCExp(name) {
+  return name === "cc-exp";
+}
+
+function isShipAddress(name) {
+  return name === "ship-address";
+}
+
+function isShipCity(name) {
+  return name === "ship-city";
+}
+
+function isShipState(name) {
+  return name === "ship-state";
+}
+
+function isShipCountry(name) {
+  return name === "ship-country";
+}
+
+function isShipZip(name) {
+  return name === "ship-zip";
+}
+
 function isEmail(type) {
   if (type === "email") {
     return true;
@@ -51,9 +87,30 @@ var i = 0;
 var type = "";
 for (i = 0; i < len; i++) {
   type = ele[i].type;
+  name = ele[i].name;
   if (!ele[i].placeholder) {
     if (isText(type)) {
-      ele[i].placeholder = "Enter the Text";
+      if (isCCName(name)) {
+        ele[i].placeholder = "Enter the Name on Credit Card"
+      } else if (isCreditCard(name)) {
+        ele[i].placeholder = "Enter the Credit Card Number"
+      } else if (isCVC(name)) {
+        ele[i].placeholder = "Enter the CVC"
+      } else if (isCCExp(name)) {
+        ele[i].placeholder = "Enter the Expiration"
+      } else if (isShipAddress(name)) {
+        ele[i].placeholder = "Enter the Street Address"
+      } else if (isShipCity(name)) {
+        ele[i].placeholder = "Enter the City"
+      } else if (isShipState(name)) {
+        ele[i].placeholder = "Enter the State"
+      } else if (isShipCountry(name)) {
+        ele[i].placeholder = "Enter the Country"
+      } else if (isShipZip(name)) {
+        ele[i].placeholder = "Enter the Zip Code"
+      } else {
+        ele[i].placeholder = "Enter the Text";
+      }
     } else if (isEmail(type)) {
       ele[i].placeholder = "Enter the Email Address";
     } else if (isNumber(type)) {
@@ -68,4 +125,5 @@ for (i = 0; i < len; i++) {
   }
 }
 
-$("textarea").attr("placeholder", "Enter the message");
+$("textarea")
+  .attr("placeholder", "Enter the message");

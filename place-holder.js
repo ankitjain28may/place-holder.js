@@ -1,48 +1,25 @@
 function isText(type) {
-  if (type === "text") {
-    return true;
-  }
-  return false;
+  return type === "text";
 }
 
 function isEmail(type) {
-  if (type === "email") {
-    return true;
-  }
-  return false;
-
+  return type === "email";
 }
 
 function isNumber(type) {
-  if (type === "number") {
-    return true;
-  }
-  return false;
-
+  return type === "number";
 }
 
 function isPassword(type) {
-  if (type === "password") {
-    return true;
-  }
-  return false;
-
+  return type === "password";
 }
 
 function isTel(type) {
-  if (type === "tel") {
-    return true;
-  }
-  return false;
-
+  return type === "tel";
 }
 
 function isURL(type) {
-  if (type === "url") {
-    return true;
-  }
-  return false;
-
+  return type === "url";
 }
 
 var ele = $(":input");

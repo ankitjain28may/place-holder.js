@@ -16,9 +16,9 @@ function getPlaceholderText(type) {
     }
 }
 
-var ele = $(":input");
-var len = ele.length;
-var i = 0;
+var ele = $(":input"),
+    len = ele.length,
+    i = 0;
 for (i = 0; i < len; i++) {
   if (!ele[i].placeholder) {
       ele[i].placeholder = getPlaceholderText(ele[i].type);

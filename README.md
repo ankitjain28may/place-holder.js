@@ -4,7 +4,7 @@
 
 #place-holder.js
 
-place-holder.js is a 1 KB Javascript file based on Jquery which is used to include placeholder in your input fileds. Don't need to include placeholder manually of every input field just include place-holder.js.
+place-holder.js is a less than 1 KB(444 bytes) Javascript file based on Jquery which is used to include placeholder in your input fileds. Don't need to include placeholder manually of every input field just include place-holder.js.
 
 ##Getting Started
 
@@ -39,7 +39,7 @@ npm install place-holder.js
 
 ##Use unpkg
 ```
-https://unpkg.com/place-holder.js@2.2.1
+https://unpkg.com/place-holder.js@2.2.2
 ```
 
 ##Install using bower

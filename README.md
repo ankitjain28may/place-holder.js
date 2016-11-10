@@ -39,7 +39,7 @@ npm install place-holder.js
 
 ##Use unpkg
 ```
-https://unpkg.com/place-holder.js@2.2.2
+https://unpkg.com/place-holder.js@2.2.3
 ```
 
 ##Install using bower

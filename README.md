@@ -1,12 +1,18 @@
+
+
+# place-holder.js
+
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/02621d4f9368486e99157258f89f44fa)](https://www.codacy.com/app/ankitjain28may77/placeholder-js?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ankitjain28may/place-holder.js&amp;utm_campaign=Badge_Grade)
+[![Code Climate](https://codeclimate.com/github/ankitjain28may/place-holder.js/badges/gpa.svg)](https://codeclimate.com/github/ankitjain28may/place-holder.js)
+[![Test Coverage](https://codeclimate.com/github/ankitjain28may/place-holder.js/badges/coverage.svg)](https://codeclimate.com/github/ankitjain28may/place-holder.js/coverage)
+[![Issue Count](https://codeclimate.com/github/ankitjain28may/place-holder.js/badges/issue_count.svg)](https://codeclimate.com/github/ankitjain28may/place-holder.js)
 [![npm version](https://badge.fury.io/js/place-holder.js.png)](https://badge.fury.io/js/place-holder.js)
 [![npm](https://img.shields.io/npm/dt/place-holder.js.svg)](https://www.npmjs.com/package/place-holder.js)
 
-#place-holder.js
 
-place-holder.js is a less than 1 KB(444 bytes) Javascript file based on Jquery which is used to include placeholder in your input fileds. Don't need to include placeholder manually of every input field just include place-holder.js.
+>place-holder.js is a less than 1 KB(444 bytes) Javascript file based on Jquery which is used to include placeholder in your input fileds. Don't need to include placeholder manually of every input field just include place-holder.js.
 
-##Getting Started
+## Getting Started
 
 First include jQuery to your web page.
 There are several ways to start using jQuery on your web site. You can:
@@ -16,45 +22,48 @@ Include jQuery from a CDN, like Google, Microsoft
 Downloading jQuery
 The jQuery library is a single JavaScript file, and you reference it with the HTML 'script' tag (notice that the 'script' tag should be outside the 'body' section at the bottom):
 
-```
-<script type="text/javascript" src="jquery-3.0.0.min.js"></script>
+```html
+<script type = "text/javascript" src = "jquery-3.0.0.min.js"></script>
 ```
 
 After including jQuery you need to include placeholder.js in your web page by downloading this project or clone is project
 Include place-holder.js after the jquery library
 
-```
+```html
 <script type="text/javascript" src="place-holder.min.js"></script>
 ```
 
 Note: Place the downloaded file in the same directory as the pages where you wish to use it.
 
 
-##Install using npm
+## Install using npm
 
-```
+```shell
 npm install place-holder.js
 ```
 
 
-##Use unpkg
+## Use unpkg
+
 ```
 https://unpkg.com/place-holder.js@2.2.4
 ```
 
-##Install using bower
+## Install using bower
 
-```
+```shell
 bower install place-holder.js
 ```
 
 ###Information for the place-holder.js
-```
+
+```shell
 bower info place-holder.js
 ```
 
-###Example
-```
+### Example
+
+```html
 	<!DOCTYPE html>
 	<html>
 		<head>
@@ -73,10 +82,10 @@ bower info place-holder.js
 			<script type="text/javascript" src="place-holder.min.js"></script>
 	</html>
 ```
-##Contribute
+## Contribute
 
-Feel free to contribute
+>Feel free to contribute
 
-##License
+## License
 
-Copyright (c) 2016 Ankit Jain - Released under the MIT License
+>Copyright (c) 2016 Ankit Jain - Released under the MIT License

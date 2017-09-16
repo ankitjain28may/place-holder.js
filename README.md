@@ -23,7 +23,7 @@ Downloading jQuery
 The jQuery library is a single JavaScript file, and you reference it with the HTML 'script' tag (notice that the 'script' tag should be outside the 'body' section at the bottom):
 
 ```html
-<script type = "text/javascript" src = "jquery-3.0.0.min.js"></script>
+<script type ="text/javascript" src ="jquery-3.0.0.min.js"></script>
 ```
 
 After including jQuery you need to include placeholder.js in your web page by downloading this project or clone is project
